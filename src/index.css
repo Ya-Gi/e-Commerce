@@ -1,13 +1,70 @@
+.App {
+  margin-bottom: 20px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+    justify-content: space-around;
+    background: blue;
+    color: white;
+}
+.navDiv {
+  position: relative;
+}
+.itemsIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.itemsDiv {
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.card {
+  text-align: center;
+}
+.cardClearButton{
+  padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.cardClearButton:active {
+  background-color: darkblue;
+}
+.carditem {
+  display: flex;
+  margin: 50px 150px;
+  justify-content: space-between;
+}
+.cardinfo {
+  text-align: right;
+}
+.cardquantitybutton{
+  border: none;
+    background: white;
+}
+.quantity {
+  margin-right: 8px;
+  
+}
+.quantityclearbutton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-top: 10px;
 }
